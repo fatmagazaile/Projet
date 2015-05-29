@@ -1,0 +1,86 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	
+    Log On
+
+</title><link href="../Content/Site.css" rel="stylesheet" type="text/css" /></head>
+
+<body>
+    <div class="page">
+
+        <div id="header">
+            <div id="title">
+                <h1>Meublatex</h1>
+            </div>
+              
+            <div id="logindisplay">
+                 
+        [ <a href="/Account/LogOn">Log On</a> ]
+
+            </div> 
+            
+            <div id="menucontainer">
+            
+                <ul id="menu">              
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Home/About">About</a></li>
+                    <li><a href="/Produit">Product</a></li>
+                    <li><a href="/Admin">Administration</a></li>
+                    <li><a href="/Client/Create">Inscription</a></li>
+                </ul>
+            
+            </div>
+        </div>
+        <div id="Div1">
+            </div>
+
+        <div id="main">
+            
+    <h2>Log On</h2>
+    <p>
+        Please enter your username and password. <a href="/Account/Register">Register</a> if you don't have an account.
+    </p>
+
+    <form action="/Account/LogOn" method="post">
+        <div>
+            <fieldset>
+                <legend>Account Information</legend>
+                
+                <div class="editor-label">
+                    <label for="UserName">User name</label>
+                </div>
+                <div class="editor-field">
+                    <input id="UserName" name="UserName" type="text" value="" />
+                    
+                </div>
+                
+                <div class="editor-label">
+                    <label for="Password">Password</label>
+                </div>
+                <div class="editor-field">
+                    <input id="Password" name="Password" type="password" />
+                    
+                </div>
+                
+                <div class="editor-label">
+                    <input id="RememberMe" name="RememberMe" type="checkbox" value="true" /><input name="RememberMe" type="hidden" value="false" />
+                    <label for="RememberMe">Remember me?</label>
+                </div>
+                
+                <p>
+                    <input type="submit" value="Log On" />
+                </p>
+            </fieldset>
+        </div>
+    </form>
+
+            <div id="footer">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
