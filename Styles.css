@@ -1,0 +1,152 @@
+@import "reset.css";
+
+html {
+	background: url(../img/bgTop.png) #efecca repeat-x
+}
+body {
+	background: url(../img/bgTop.png) #efecca repeat-x
+}
+body {
+	font: 0.8em georgia, serif; color: #7f7c61
+}
+a {
+	color: #002f2f; text-decoration: none
+}
+hr {
+	display: none
+}
+
+div#header 
+{
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+div#logo
+{
+  padding-top: 20px;
+  text-align: center;
+}
+#langs {
+	margin: -7px auto; width: 820px; padding-right: 5px; overflow: auto;
+}
+#langs UL {
+	padding-bottom: 10px; padding-left: 4px; padding-right: 4px; 
+	background-color: #efecca;
+	float: right; padding-top: 0px;
+}
+#langs UL:before {
+	MARGIN: 0px 0px 4px -4px;
+}
+#langs UL:before {
+	width: 1px; height: 1px; content: ''
+}
+#langs LI > *:before {
+	width: 1px; height: 1px; content: ''
+}
+#langs LI {
+	margin: 0px 2px; float: left; font-size: 0.7em
+}
+#langs UL:before {
+	display: block
+}
+#langs LI > * {
+	display: block
+}
+#langs LI > *:before {
+	display: block
+}
+#langs LI > * {
+	padding-bottom: 2px; padding-left: 5px; padding-right: 5px; background-color: #fff; padding-top: 0px;
+}
+#langs LI > *:before {
+	margin: 0px -5px 2px;
+}
+#langs STRONG {
+	background-color: #a7a37e; color: #fff
+}
+#langs A {
+	color: #046380
+}
+#langs A:hover {
+	outline-style: solid; outline-color: #fff; outline-width: 1px; background: none transparent scroll repeat 0% 0%
+}
+#comeback
+{
+  float: left;
+  width: 100px;
+}
+#comeback LI > *
+{
+  background-color: #efecca;
+}
+#content
+{
+  border-left: solid 1px #ffffff;
+  border-right: solid 1px #ffffff;
+  border-top: solid 1px #ffffff;
+	background-color: #efecca;
+	position: relative; 
+	padding-bottom: 1.2em; 
+	margin: 0px auto; 
+	padding-left: 25px; 
+	width: 810px; 
+	padding-right: 25px;
+	padding-top: 0px;
+}
+#albums {
+	border-bottom: #e6e2af 2px solid; text-align: center; padding-bottom: 7px; margin-bottom: 1em; font-size: 1.1em;
+	padding-top: 20px;
+}
+#albums LI {
+	padding-bottom: 0px; padding-left: 14px; padding-right: 8px; display: inline; padding-top: 0px
+}
+#albums LI:first-child {
+	padding-left: 0px
+}
+#albums LI + LI {
+	background: url(../img/puceMenu-trans.png) no-repeat 0px 55%
+}
+#albums STRONG {
+	border-bottom: #e6e2af 0px solid; border-left: #e6e2af 2px solid; 
+	padding-bottom: 9px; padding-left: 10px; padding-right: 10px; 
+	color: #222; 
+	font-weight: bold;
+	border-top: #e6e2af 2px solid; 
+	border-right: #e6e2af 2px solid; 
+	padding-top: 10px;
+}
+#albums A:hover {
+	color: #046380
+}
+#footer {
+	text-align: center; background: url(../img/bandeBlanche.png) repeat-x; height: 120px
+}
+
+#footer P 
+{
+    border-bottom: solid 1px #ffffff;
+    border-left: solid 1px #ffffff;
+    border-right: solid 1px #ffffff;
+	background-color: #efecca;
+	margin: 0px auto; width:860px;
+	height: 70px; padding-top: 10px;
+	
+}
+
+#footer BR {
+	display: none;
+}
+#footer STRONG {
+	letter-spacing: 2px; color: #555; font-size: 0.9em;
+}
+#footer EM {
+	padding-bottom: 20px; font-style: italic; display: block; background: url(../img/hr-trans.png) no-repeat 50% 100%; color: #989575; font-size: 0.8em;
+}
+#endContent
+{
+  padding-top: 30px;
+  border-bottom: #e6e2af 2px solid;
+  width: 800px;
+  margin: auto;
+}
